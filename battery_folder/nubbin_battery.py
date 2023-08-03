@@ -1,5 +1,5 @@
 from datetime import date
-from battery import Battery
+from .battery import Battery 
 
 
 class NubbinBattery(Battery):
@@ -10,6 +10,6 @@ class NubbinBattery(Battery):
         else:
             return False
 
-last_date = date(2019, 7, 26)
-my_battery = NubbinBattery(last_date)
-print(my_battery.needs_service())
+# last_date = date(2019, 8, 26)
+# my_battery = NubbinBattery(last_date)
+# # print(my_battery.needs_service())
