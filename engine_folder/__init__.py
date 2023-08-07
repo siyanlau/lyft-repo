@@ -1,3 +1,3 @@
-from . import capulet_engine
-from . import sternman_engine
-from . import willoughby_engine
+from .capulet_engine import CapuletEngine
+from .sternman_engine import SternmanEngine
+from .willoughby_engine import WilloughbyEngine
